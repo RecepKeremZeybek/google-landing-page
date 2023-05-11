@@ -23,3 +23,35 @@ body{
 .header__right{
     float: right;
 }
+.header__item{
+    display: inline-block;
+}
+.header__link{
+    color: black;
+    padding: .5rem;
+    opacity: .7rem;
+}
+.header__link:hover{
+    text-decoration: underline;
+}
+.header__link--appicon{
+    opacity:.7rem;
+    vertical-align: middle;
+}
+.header__link--appicon:hover{
+    opacity:1;
+}
+.header__link--button{
+    width: 70px;
+    height: 30px;
+    background-color: #498af4;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.header__link--button:hover{
+    color: blue;
+}
+
