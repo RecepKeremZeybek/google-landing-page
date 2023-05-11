@@ -12,6 +12,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* header */
 .header{
     padding: 20px;
     line-height: 27px;
@@ -55,3 +57,10 @@ body{
     color: blue;
 }
 
+/* main */
+
+.main{
+    margin-top: 150px;
+    text-align: center;
+    
+}
