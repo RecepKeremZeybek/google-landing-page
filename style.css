@@ -42,6 +42,18 @@ body {
 .header__link--appicon:hover {
   opacity: 1;
 }
+
+.header__link--avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.header__link--avatar:hover {
+  width: 34px;
+  height: 34px;
+  background-color: #d3d3d3;
+}
 .header__link--button {
   width: 70px;
   height: 30px;
@@ -138,11 +150,11 @@ body {
   border-bottom: 1px solid #e4e4e4;
 }
 
-.footer__left{
+.footer__left {
   float: left;
   padding-left: 15px;
 }
-.footer__right{
+.footer__right {
   float: right;
   padding-right: 21px;
 }
