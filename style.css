@@ -73,6 +73,11 @@ body {
   padding-top: 3px;
   border: 1px solid #d3d3d3;
   margin: 20px auto;
+  border-radius: 25px;
+}
+
+.main__search-bar:hover{
+box-shadow: rgb(211,211,211) 3px 3px 5px 0px;
 }
 .main__search-bar--magnifier {
   height: 30px;
@@ -85,4 +90,12 @@ body {
   width: 15px;
   vertical-align: middle;
   cursor: pointer;
+}
+.main__search-bar--input{
+  width: 350px;
+  height: 25px;
+  border: none;
+  outline: none;
+  vertical-align: middle;
+  font-size: 14px; 
 }
